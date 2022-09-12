@@ -1,0 +1,99 @@
+
+.banner{
+    background-image: url(https://i.pinimg.com/originals/8c/3c/0a/8c3c0a302693abdc223bdf3041d34a0f.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.title{
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    color: white;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 160px;
+    float:none;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+h1{
+    font-family:'Helvetica Neue';
+    font-size: 50px;
+    font-weight: 500;
+    display:block;
+    margin-bottom: 5px;
+    line-height: .6;
+}
+
+h2{
+    font-family:'Helvetica Neue';
+    font-size: 30px;
+    font-weight: 300;
+    display:block;
+    line-height: .6;
+}
+
+p{
+    font-family:'Helvetica Neue';
+    font-size: 20px;
+    font-weight: 200;
+    display:block;
+    margin-left: 10px;
+    line-height: .6;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 30px;
+    text-align: left;
+    background-color: rgb(250, 250, 250);
+    border-radius: 15px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    border: 5px solid rgb(158, 99, 98);
+    position:relative;
+}
+
+.left{
+    width: 50%;
+    margin-left: 130px;
+}
+.right{
+    width: 50%;
+    margin-right: 30px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right:auto
+}
+
+.song{
+    width: 30%;
+}
+
+.header{
+    margin-right: 10%;
+}
+
+
+
