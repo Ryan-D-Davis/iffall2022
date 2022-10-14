@@ -1,0 +1,121 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 1.4;
+}
+
+
+.content-area{
+   
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+#intro .content-area{
+    text-align: center;
+}
+#intro{
+    background-image: linear-gradient(rgb(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(https://expansivedlc.com/wp-content/uploads/2022/03/kirby-and-the-forgotten-lands-co-op.jpg);
+    background-size: cover;
+    
+}
+
+#description{
+    background-color: rgb(168, 224, 224);
+    height: 715px;
+}
+
+#grid{
+    background-color: rgb(226, 186, 209);
+    height: 691px;
+}
+
+#conclusion{
+    background-color: rgb(157, 224, 187);
+    height: 405px;
+}
+
+#footer{
+    background-color: rgb(224, 166, 135);
+    height: 105px;
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+    margin-top: 130px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 170px;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.content-image{
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+#grid h3{
+    margin-top: 20px;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding-left: 0;
+    row-gap: 2px;
+}
+
+li{
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+.img-grid{
+    float: left;
+    padding-right: 12px;
+    clear: both;
+}
+
+h4{
+   font-size: 20px; 
+   font-weight: 600;
+   margin-top: 0;
+   margin-bottom: 5px;
+   letter-spacing: .2px;
+}
+
+h5{
+    text-align: center;
+    padding-right: 125px;
+    padding-left: 125px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 0.5em;
+    letter-spacing: .35px;
+    line-height: 36px;    
+}
+
+#footer p{
+    padding-top: 21px;
+}
