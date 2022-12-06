@@ -1,0 +1,541 @@
+html{
+    justify-content: center;
+}
+
+body.home{
+    background-image: url(images/HomeBG.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: black;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
+@media (max-width: 975px) {
+    body.home{
+        background-position: left top;
+        background-size: 100em;
+    }
+}
+@media (min-width: 976px) {
+    body.home{
+        background-position: center top;
+        background-size: 60em;
+    }
+}
+@media (max-width: 600px) {
+    body.home{
+        background-position: left top;
+        background-size: 60em;
+    }
+}
+
+
+body{
+    background-color: black;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
+
+header{
+    margin: 3em;
+}
+@media (max-width: 975px) {
+    header{
+        margin-top: 5em;
+    }
+}
+
+#gradient{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(202, 34, 33, .6), rgba(0, 0, 0, 0));
+    margin: 0;
+    position: absolute;
+}
+
+
+
+/* Header */
+.nav{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4px;
+    position: sticky;
+    z-index: 9999;
+}
+@media (max-width: 600px) {
+    .nav{
+        flex-wrap: wrap;
+        padding-top: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    header>a{
+        padding:0;
+    }
+}
+
+.line{
+    border-top: 1px white;
+    z-index: 9999;
+}
+
+.buttonhead{
+    height: 40px;
+    position: absolute;
+    top: 45px;
+    left: 3rem;
+}
+@media (max-width: 975px) {
+    .buttonhead{
+        margin: auto;
+        left: 0;
+        position: inherit;
+    }
+}
+
+a{
+    display: inline-block;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 0 1em;
+}
+@media (max-width: 600px) {
+    a{
+        font-size: .9rem;
+        padding: 0 6em;
+    }
+}
+
+a:hover{
+    color: rgb(138, 142, 155);
+}
+
+.view{
+    color: rgb(138, 142, 155);
+}
+
+#defaultnav{
+
+}
+
+
+/* Home Main */
+.main{
+    margin: 30em 0 5em 0;
+}
+@media (max-width: 975px) {
+    .main{
+        margin-top: 10em;
+    }
+}
+@media (max-width: 600px) {
+    .main{
+        margin-top: 5em;
+    }
+}
+/* @media (max-width: 1300px) {
+    .main{
+        margin: 30em 17em 5em 17em;
+    }
+}
+@media (max-width: 900px) {
+    .main{
+        margin: 30em 12em 5em 12em;
+    }
+} */
+
+.btext{
+    width: 500px;
+    margin: auto;
+}
+@media (max-width: 975px) {
+    .btext{
+        width: 300px;
+    }
+}
+@media (max-width: 600px) {
+    .btext{
+        width: 250px;
+    }
+}
+
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 4em;  
+    margin: auto;
+}
+
+
+.type{
+    overflow: hidden;
+    width: 0;
+    animation: typing 1s steps(15, end) forwards;
+    white-space: nowrap;
+    text-align: center;
+}
+@media (max-width: 975px) {
+    .type{
+        font-size: 4em;
+    }
+}
+@media (max-width: 600px) {
+    .type{
+        font-size: 2em;
+    }
+}
+
+.pname{
+    text-align: center;
+}
+@media (max-width: 975px) {
+    h1.pname{
+        font-size: 2.5em;
+    }
+}
+@media (max-width: 600px) {
+    .pname{
+        font-size: 2em;
+    }
+}
+
+
+
+.container{
+    display: inline-block;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .85em;
+    text-align: justify;
+    padding-bottom: 1.7em;
+    line-height: 150%;
+    letter-spacing: .02em;
+}
+@media (max-width: 1300px) {
+    p{
+        font-size: .7em;
+    }
+}
+@media (max-width: 400px) {
+    p{
+        font-size: .6em;
+        padding-bottom: 8em;
+        line-height: 170%;
+    }
+}
+
+.homeimg{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1.7em;
+}
+
+.awardgrid{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 975px) {
+    .awardgrid{
+        padding: 0;
+    }
+}
+
+.awards{
+    height: 6rem;
+    padding: .5rem;
+}
+@media (max-width: 600px) {
+    .awards{
+        height: 4rem;
+    }
+}
+
+
+
+/* Characters Main */
+.c-main{
+    /* margin: 7em 17em 5em 17em; */
+    margin: auto;
+}
+@media (max-width: 975px) {
+    .c-main{
+        margin-top: 10em;
+    }
+}
+@media (max-width: 600px) {
+    .c-main{
+        margin-top: 5em;
+    }
+}
+
+.characters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+}
+
+.portrait{
+    padding: 2rem;
+    width: 12rem;
+}
+@media (max-width: 1060px) {
+    .portrait{
+        width: 8rem;
+        padding: 1rem;
+        padding-left: 1.5rem;
+    }
+}
+
+h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+    padding: 0 2rem;
+    padding-bottom: .3em;
+    margin: 0;
+    width: 12rem;
+}
+@media (max-width: 1060px) {
+    h3{
+        width: 8rem;
+        font-size: 1em;
+    }
+}
+
+h4{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 2rem;
+    padding-bottom: 2em;
+    margin: 0;
+    width: 12rem;
+}
+@media (max-width: 1060px) {
+    h4{
+        width: 8rem;
+        font-size: 1em;
+    }
+}
+
+li{
+    list-style: none;
+}
+
+
+
+/* Production Main */
+.float-left{
+    float: left;
+    margin: 1rem 2rem 2rem 0;
+    width: 40%;
+}
+@media (max-width: 1230px) {
+    .float-left{
+        width:100% ;
+    }
+}
+
+.float-right{
+    float: right;
+    margin: 4rem 0rem 1rem 3rem;
+    width: 55%;
+}
+@media (max-width: 1230px) {
+    .float-right{
+        width:100% ;
+        margin-top: .5rem;
+    }
+}
+
+h5{
+    display: inline-block;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    padding-top: 2rem;
+    margin: 0;
+}
+
+
+
+/* Reception Main */
+.RPage{
+    padding-top: 1em;
+    text-align: center;
+    position: relative;
+    top: -3em;
+}
+
+li{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .85em;
+    text-align: justify;
+    padding-bottom: .5em;
+    line-height: 150%;
+    letter-spacing: .02em;
+}
+
+.year{
+    font-weight: 700;
+    padding-bottom: 1em;
+    padding-top: 1.5em;
+    text-decoration: underline;
+}
+
+.viewR{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.pother{
+    /* color: rgba(202, 34, 33, .6); */
+}
+
+a.pother:hover{
+    font-size: 1.5em;
+}
+
+.seasonimage{
+    width: 100%;
+    padding-top: 1em;
+}
+
+.win{
+    color: rgb(59, 213, 80)
+}
+
+
+
+/* Footer */
+.footer{
+    margin: 0 3rem 3rem 3rem;
+}
+@media (max-width: 975px) {
+    .footer{
+        width: 300px;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer>a{
+        padding:0;
+    }
+}
+
+.buttonfoot{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 2.5rem;
+    position: absolute;
+    right: 3rem;
+    width: auto;
+}
+@media (max-width: 975px) {
+    .buttonfoot{
+        position: inherit;
+        padding: 1em 2em 0 2em;
+    }
+}
+
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .95em;
+    font-weight: 100;
+    text-align: right;
+    padding-bottom: .8rem;
+    margin: 0;
+}
+
+h2:hover{
+    color: rgb(138, 142, 155);
+}
+
+.footpages{
+    padding-top: 2rem;
+}
+
+
+.footpages>a{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .95em;
+    font-weight: 100;
+    text-align: right;
+    padding-bottom: .8rem;
+    margin: 0;
+    display: block;
+}
+@media (max-width: 975px) {
+    .footpages>a{
+        text-align: center;
+    }
+}
+
+.footpages>a:hover{
+    color: rgb(138, 142, 155);
+}
+
+.foot{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 975px) {
+    .foot{
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
+
+
+
+/* Sources */
+.sources{
+    text-align: center;
+    
+}
+
+.sources a{
+    font-size: 1em;
+}
+
+
+
+
+
